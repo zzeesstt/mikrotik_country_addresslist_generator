@@ -45,7 +45,7 @@ chmod +x addresslist*
 # ловим интересующий нас трафик и засовываем его в таблицу "vpn" 
 /ip firewall mangle add action=mark-routing chain=prerouting dst-address-list=ru dst-port=80,443 new-routing-mark=vpn passthrough=yes protocol=tcp
 
-# создаем марщрут для тастомной таблицы "vpn", направляем маршрут в VPN интерфейс  
+# создаем марщрут для кастомной таблицы "vpn", направляем трафик в VPN интерфейс
 /ip route add comment="vpn" distance=1 dst-address=0.0.0.0/0 gateway=<VPN_INTERFACE> routing-table=vpn
 ```
 ### (tested ROS7)
