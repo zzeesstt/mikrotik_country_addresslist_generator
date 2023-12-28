@@ -1,4 +1,5 @@
-# Mikrotik: эффективный способ точечного обхода блокировок по принципу формирования актуального списка сетей указанных стран 2024
+# Mikrotik: точечный обход блокировок\формирование актуального списка сетей указанных стран 2024 
+
 **+ За основу взят инструмент для экспорта BGB актуальной онлайн базы сетей**
  
 **+ Адреслисты выгружаются в оперативную память**
@@ -27,7 +28,7 @@ chmod +x addresslist*
 \n/file remove address_list_ru_pl.src"
 ```
 
-### Mikrotik: содержимое скрипта
+### Mikrotik: описанме
 ```
 # скачать скрипт на mikrotik
 /tool fetch url="https://raw.githubusercontent.com/zzeesstt/mikrotik_country_addresslist_generator/main/address_list_ru_pl.src" mode=https
@@ -35,7 +36,7 @@ chmod +x addresslist*
 # импортировать скрипт
 /import address_list_ru_pl.src
 
-# ужадить скрипт
+# удалить скрипт
 /file remove address_list_ru_pl.src
 
 # создать кастомную таблицу марщрутизации "vpn"
@@ -47,5 +48,5 @@ chmod +x addresslist*
 # создаем марщрут для тастомной таблицы "vpn", направляем маршрут в VPN интерфейс  
 /ip route add comment="vpn" distance=1 dst-address=0.0.0.0/0 gateway=<VPN_INTERFACE> routing-table=vpn
 ```
-
+### (tested ROS7)
 ### За основу взят проект https://github.com/furriest/radb-tools
