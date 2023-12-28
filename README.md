@@ -1,2 +1,4 @@
 # mikrotik_country_addresslist_generator
-mikrotik country addresslist generator
+chmox + addresslist*
+./addresslist_install.sh
+./addresslist_generator.sh
