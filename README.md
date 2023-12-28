@@ -6,5 +6,10 @@ chmox +x addresslist*
 ./addresslist_generator.sh
 ___
 
-## Mikrotik install
-https://github.com/zzeesstt/mikrotik_country_addresslist_generator/blob/main/addresslist_install.sh
+## Mikrotik script
+/tool fetch url="https://raw.githubusercontent.com/zzeesstt/mikrotik_country_addresslist_generator/main/address_list_ru_pl.src" mode=https
+
+/import address_list_ru_pl.src
+
+/file remove address_list_ru_pl.src
+
