@@ -893,7 +893,7 @@ add address=46.19.112.0/21 list=ru timeout=247d
 add address=46.20.64.0/20 list=ru timeout=247d
 add address=46.20.176.0/20 list=ru timeout=247d
 add address=46.21.64.0/20 list=ru timeout=247d
-add address=46.21.240.0/21 list=ru timeout=247d
+add address=46.21.244.0/22 list=ru timeout=247d
 add address=46.21.248.0/23 list=ru timeout=247d
 add address=46.21.252.0/22 list=ru timeout=247d
 add address=46.22.48.0/20 list=ru timeout=247d
@@ -1233,7 +1233,7 @@ add address=77.75.168.0/21 list=ru timeout=247d
 add address=77.79.128.0/18 list=ru timeout=247d
 add address=77.81.5.0/24 list=ru timeout=247d
 add address=77.82.0.0/16 list=ru timeout=247d
-add address=77.83.0.0/22 list=ru timeout=247d
+add address=77.83.0.0/24 list=ru timeout=247d
 add address=77.83.8.0/22 list=ru timeout=247d
 add address=77.83.16.0/22 list=ru timeout=247d
 add address=77.83.28.0/22 list=ru timeout=247d
@@ -1485,7 +1485,7 @@ add address=79.174.32.0/19 list=ru timeout=247d
 add address=79.174.64.0/19 list=ru timeout=247d
 add address=79.174.184.0/21 list=ru timeout=247d
 add address=79.175.0.0/18 list=ru timeout=247d
-add address=80.64.16.0/20 list=ru timeout=247d
+add address=80.64.16.0/21 list=ru timeout=247d
 add address=80.64.96.0/20 list=ru timeout=247d
 add address=80.64.160.0/20 list=ru timeout=247d
 add address=80.65.16.0/20 list=ru timeout=247d
@@ -2027,7 +2027,6 @@ add address=85.249.0.0/16 list=ru timeout=247d
 add address=85.255.184.0/21 list=ru timeout=247d
 add address=86.62.4.0/22 list=ru timeout=247d
 add address=86.62.12.0/22 list=ru timeout=247d
-add address=86.62.16.0/22 list=ru timeout=247d
 add address=86.62.48.0/22 list=ru timeout=247d
 add address=86.62.64.0/18 list=ru timeout=247d
 add address=86.102.0.0/16 list=ru timeout=247d
@@ -2793,11 +2792,10 @@ add address=91.211.236.0/22 list=ru timeout=247d
 add address=91.212.7.0/24 list=ru timeout=247d
 add address=91.212.32.0/24 list=ru timeout=247d
 add address=91.212.47.0/24 list=ru timeout=247d
-add address=91.212.49.0/24 list=ru timeout=247d
-add address=91.212.50.0/23 list=ru timeout=247d
+add address=91.212.50.0/24 list=ru timeout=247d
 add address=91.212.57.0/24 list=ru timeout=247d
 add address=91.212.60.0/24 list=ru timeout=247d
-add address=91.212.64.0/23 list=ru timeout=247d
+add address=91.212.64.0/24 list=ru timeout=247d
 add address=91.212.68.0/24 list=ru timeout=247d
 add address=91.212.81.0/24 list=ru timeout=247d
 add address=91.212.97.0/24 list=ru timeout=247d
@@ -3574,7 +3572,6 @@ add address=91.240.71.0/24 list=ru timeout=247d
 add address=91.240.74.0/23 list=ru timeout=247d
 add address=91.240.84.0/22 list=ru timeout=247d
 add address=91.240.90.0/23 list=ru timeout=247d
-add address=91.240.95.0/24 list=ru timeout=247d
 add address=91.240.102.0/23 list=ru timeout=247d
 add address=91.240.110.0/23 list=ru timeout=247d
 add address=91.240.112.0/22 list=ru timeout=247d
@@ -4701,7 +4698,6 @@ add address=176.100.64.0/18 list=ru timeout=247d
 add address=176.100.128.0/19 list=ru timeout=247d
 add address=176.100.216.0/21 list=ru timeout=247d
 add address=176.100.240.0/20 list=ru timeout=247d
-add address=176.101.56.0/21 list=ru timeout=247d
 add address=176.101.64.0/21 list=ru timeout=247d
 add address=176.101.88.0/21 list=ru timeout=247d
 add address=176.101.96.0/19 list=ru timeout=247d
@@ -7496,7 +7492,7 @@ add address=194.60.76.0/24 list=ru timeout=247d
 add address=194.60.132.0/22 list=ru timeout=247d
 add address=194.60.236.0/22 list=ru timeout=247d
 add address=194.60.242.0/24 list=ru timeout=247d
-add address=194.60.244.0/22 list=ru timeout=247d
+add address=194.60.246.0/23 list=ru timeout=247d
 add address=194.60.248.0/23 list=ru timeout=247d
 add address=194.61.0.0/22 list=ru timeout=247d
 add address=194.61.8.0/23 list=ru timeout=247d
@@ -7772,7 +7768,7 @@ add address=195.16.95.0/24 list=ru timeout=247d
 add address=195.16.96.0/19 list=ru timeout=247d
 add address=195.18.12.0/22 list=ru timeout=247d
 add address=195.18.20.0/22 list=ru timeout=247d
-add address=195.18.26.0/23 list=ru timeout=247d
+add address=195.18.26.0/24 list=ru timeout=247d
 add address=195.18.32.0/19 list=ru timeout=247d
 add address=195.19.0.0/16 list=ru timeout=247d
 add address=195.20.16.0/24 list=ru timeout=247d
@@ -8337,7 +8333,7 @@ add address=212.75.128.0/19 list=ru timeout=247d
 add address=212.75.192.0/18 list=ru timeout=247d
 add address=212.76.128.0/18 list=ru timeout=247d
 add address=212.77.128.0/19 list=ru timeout=247d
-add address=212.81.32.0/21 list=ru timeout=247d
+add address=212.81.32.0/22 list=ru timeout=247d
 add address=212.83.0.0/19 list=ru timeout=247d
 add address=212.86.99.0/24 list=ru timeout=247d
 add address=212.90.96.0/22 list=ru timeout=247d
@@ -8672,7 +8668,6 @@ add address=217.78.176.0/20 list=ru timeout=247d
 add address=217.78.224.0/21 list=ru timeout=247d
 add address=217.78.232.0/24 list=ru timeout=247d
 add address=217.78.236.0/24 list=ru timeout=247d
-add address=217.78.238.0/23 list=ru timeout=247d
 add address=217.79.0.0/19 list=ru timeout=247d
 add address=217.79.48.0/20 list=ru timeout=247d
 add address=217.79.224.0/20 list=ru timeout=247d
