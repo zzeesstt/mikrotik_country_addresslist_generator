@@ -23,21 +23,21 @@ chmod +x addresslist*
 ```
 /system scheduler add interval=1d name=addresslist_ru_pl_update on-event=addresslist_ru_pl_update policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=2023-12-28 start-time=04:30:00
 
-/system script add dont-require-permissions=no name=addresslist_ru_pl_update policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="/tool fetch url=\"https://raw.githubusercontent.com/zzeesstt/mikrotik_country_addresslist_generator/main/address_list_ru_pl.src\" mode=https\r\
-\n/import address_list_ru_pl.src\r\
-\n/file remove address_list_ru_pl.src"
+/system script add dont-require-permissions=no name=addresslist_ru_pl_update policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="/tool fetch url=\"https://raw.githubusercontent.com/zzeesstt/mikrotik_country_addresslist_generator/main/address_list_ru_pl_cn.src\" mode=https\r\
+\n/import address_list_ru_pl_cn.src\r\
+\n/file remove address_list_ru_pl_cn.src"
 ```
 
 ### Mikrotik: описанме
 ```
 # скачать скрипт на mikrotik
-/tool fetch url="https://raw.githubusercontent.com/zzeesstt/mikrotik_country_addresslist_generator/main/address_list_ru_pl.src" mode=https
+/tool fetch url="https://raw.githubusercontent.com/zzeesstt/mikrotik_country_addresslist_generator/main/address_list_ru_pl_cn.src" mode=https
 
 # импортировать скрипт
-/import address_list_ru_pl.src
+/import address_list_ru_pl_cn.src
 
 # удалить скрипт
-/file remove address_list_ru_pl.src
+/file remove address_list_ru_pl_cn.src
 
 # создать кастомную таблицу марщрутизации "vpn"
 /routing table add disabled=no fib name=vpn
