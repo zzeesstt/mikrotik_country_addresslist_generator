@@ -8772,3 +8772,4 @@ add address=212.98.160.0/19 list=ru timeout=247d
 add address=213.184.224.0/19 list=ru timeout=247d
 add address=217.21.32.0/19 list=ru timeout=247d
 add address=217.23.112.0/20 list=ru timeout=247d
+add address=159.138.192.0-159.138.207.255 list=ru timeout=247d comment"Huawai"
